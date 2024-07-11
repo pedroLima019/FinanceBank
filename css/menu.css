@@ -9,6 +9,9 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .menu-lateral {
   display: flex;
   flex-direction: column;
@@ -52,7 +55,7 @@ ul .item-menu a:hover {
 ul .item-menu a {
   color: white;
   font-size: 18px;
-  padding: 8px ;
+  padding: 8px;
   display: flex;
   line-height: 40px;
   transition: 0.2s ease-in-out;
@@ -65,5 +68,3 @@ ul .item-menu a .txt-link {
 ul .item-menu a .icon > i {
   font-size: 30px;
 }
-
-
