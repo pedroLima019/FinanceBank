@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
 
-    <!-- javascript -->
-    <script src="js/menu.js" defer></script>
 
     <title>Finance Bank</title>
   </head>
@@ -29,6 +27,12 @@
       </div>
 
       <ul>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class="bi bi-house"></i></span>
+            <span class="txt-link">Home</span>
+          </a>
+        </li>
         <li class="item-menu">
           <a href="#ofertas">
             <span class="icon"><i class="bi bi-currency-dollar"></i></span>
@@ -42,15 +46,9 @@
           </a>
         </li>
         <li class="item-menu">
-          <a href="#">
+          <a href="#cliente">
             <span class="icon"><i class="bi bi-person-arms-up"></i> </span>
             <span class="txt-link">Seja nosso cliente</span>
-          </a>
-        </li>
-        <li class="item-menu">
-          <a href="#">
-            <span class="icon"></span>
-            <span class="txt-link"></span>
           </a>
         </li>
       </ul>
@@ -66,7 +64,7 @@
     <!-- header finish -->
     <!-- main -->
     <main>
-      <!-- section ofertas -->
+      <!-- ofertas -->
       <section id="ofertas">
         <h1>Ofertas</h1>
         <div class="oferta-content">
@@ -104,8 +102,8 @@
           </article>
         </div>
       </section>
-      <!-- section ofertas finish -->
-      <!-- section services -->
+      <!--  ofertas finish -->
+      <!--  services -->
       <section id="services">
         <h1>Nossos Serviços</h1>
         <div class="services-content">
@@ -138,6 +136,31 @@
           </div>
         </div>
       </section>
+      <!-- services finish -->
+       <!-- cliente -->
+        <section id="cliente">
+             <div class="cliente-head">
+                 <h1>Venha construir seu futuro  com a gente </h1>
+             </div>
+             <div class="form-client">
+              <h3>Faça seu cadastro</h3>
+                 <form>
+                   <label for="nome">Nome:</label>
+                   <input type="text" placeholder="Digite seu nome">
+                   <label for="email">E-mail:</label>
+                   <input type="text" placeholder="Digite seu e-mail">
+                   <label for="telefone">Telefone:</label>
+                   <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Digite seu telefone">
+                   <label for="aponsentado">Aposentado:</label>
+                   <input list="aponsentado" placeholder="Escolha uma opção">
+                   <datalist id="aponsentado">
+                     <option value="sim">
+                     <option value="não">
+                   </datalist>
+                   <button type="submit">Cadastrar</button>
+                 </form>
+             </div>
+        </section>
     </main>
     <footer>
         <div class="social-media">
