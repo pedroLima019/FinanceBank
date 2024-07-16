@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/mainEmp.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <title>Finance Bank</title>
+  </head>
+  <body>
+    <!-- sidebar -->
+    <nav class="menu-lateral">
+      <div class="logo">
+        <img src="assets/logo.png" alt="" />
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="/home.html">
+            <span class="icon"><i class="bi bi-house"></i></span>
+            <span class="txt-link">Home</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="/home.html">
+            <span class="icon"><i class="bi bi-currency-dollar"></i></span>
+            <span class="txt-link">Ofertas</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="/home.html">
+            <span class="icon"><i class="bi bi-bank"></i> </span>
+            <span class="txt-link">Serviços</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="/home.html">
+            <span class="icon"><i class="bi bi-person-arms-up"></i> </span>
+            <span class="txt-link">Seja nosso cliente</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- sidebar finish -->
+
+    <!-- main -->
+     <main>
+        <section class="cards-emprestimos">
+               <div class="card">
+                  <img src="assets/Servico01.png" alt="">
+                  <h3>Consignado</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus beatae temporibus dolorum dolore mollitia? Eos.</p>
+                  <button type="submit">Faça seu emprestimo</button>
+               </div>
+               <div class="card">
+                  <img src="assets/servicos02.png" alt="">
+                  <h3>Pessoal</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus beatae temporibus dolorum dolore mollitia? Eos.</p>
+                  <button type="submit">Faça seu emprestimo</button>
+               </div>
+        </section>
+        <section class="sol-emprestimo">
+                <h1>Solicite seu emprestimo</h1>
+                <form action="">
+                   <label for="emprestimo">Tipo de emprestimo:</label>
+                   <select name="emprestimo" id="emprestimo">
+                      <option value="Pessoal">Pessoal</option>
+                      <option value="Consignado">Consignado</option>
+                   </select>
+
+                   <label for="valorEmprestimo">Valor do emprestimo:</label>
+                   <select name="valorEmprestimo" id="valorEmprestimo">
+                      <option value="1000">1000</option>
+                      <option value="2000">2000</option>
+                      <option value="3000">3000</option>
+                   </select>
+
+                   <label for="parcelas">Parcelas:</label>
+                   <select name="valorEmprestimo" id="valorEmprestimo">
+                      <option value="1x">1x</option>
+                      <option value="2x">3x</option>
+                      <option value="6x">6x</option>
+                   </select>
+
+                   <label for="valorFinal">Valor das parcelas:<label>
+                    <input type="text" placeholder="valor das parcelas...">
+
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+        <section class="perguntas">
+            <h1>Perguntas Frequentes</h1>
+            <div class="perguntas-acordeon">
+              <details>
+                <summary>Como funciona o emprestimo ?</summary>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Mé faiz elementum girarzis, nisi eros vermeio. Suco de cevadiss deixa as pessoas mais interessantis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+              </details>
+              <details>
+                <summary>Como faço para parcelar o emprestimo ?</summary>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Mé faiz elementum girarzis, nisi eros vermeio. Suco de cevadiss deixa as pessoas mais interessantis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+              </details>
+              <details>
+                <summary>Como faço para vira cliente ? </summary>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Mé faiz elementum girarzis, nisi eros vermeio. Suco de cevadiss deixa as pessoas mais interessantis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+              </details>
+            </div>
+        </section>
+     </main>
+     <!-- main finish-->
+     <footer>
+      <div class="social-media">
+          <h2>Contatos:</h2>
+          <div class="logos">
+              <img src="assets/gmail.png" alt="Gmail">
+              <img src="assets/instagram.png" alt="instagram">
+              <img src="assets/whatsap.png" alt="whatsap">
+          </div>
+      </div>
+  </footer>
+  </body>
+</html>

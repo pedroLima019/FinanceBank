@@ -11,11 +11,11 @@
     />
 
     <!-- css -->
-
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
-
+ 
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
     <title>Finance Bank</title>
   </head>
@@ -152,11 +152,10 @@
                    <label for="telefone">Telefone:</label>
                    <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Digite seu telefone">
                    <label for="aponsentado">Aposentado:</label>
-                   <input list="aponsentado" placeholder="Escolha uma opção">
-                   <datalist id="aponsentado">
-                     <option value="sim">
-                     <option value="não">
-                   </datalist>
+                   <select name="aponsentado" id="aponsentado">
+                     <option value="sim">Sim</option>
+                     <option value="não">Não</option>
+                   </select>
                    <button type="submit">Cadastrar</button>
                  </form>
              </div>
